@@ -1,0 +1,80 @@
+@import './block/navbar.css';
+@import './pages/videos.css';
+
+ul{list-style: none;}
+
+#header{
+    background-image: url(../assets/img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-decoration: none;
+    height: 100vh;
+    filter: grayscale(80%);
+}
+
+#mensaje{
+    position: absolute;
+    color: #fff;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-align: center;
+}
+
+span.titulo{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+
+span.subtitulo{
+    color: rgba(255, 255, 255, .7);
+    font-size: 1.6em;
+}
+
+span.descripcion{
+    font-size: 1.2em;
+    width: 50%;
+}
+/*==================================*/
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    background-color: #D1D1D1;
+}
+
+.col{
+    min-width: 300px;
+}
+
+.col .titulo{
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.col .descripcion{
+    text-align: justify;
+}
+
+.card{
+    transition: transform .5s;
+}
+
+.card:hover{
+    box-shadow: 0 0 3px #111;
+    transform: scale(1.01);
+}
+
+
+footer{
+    background-color: #D1D1D1;
+
+}
+

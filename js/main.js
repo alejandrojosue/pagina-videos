@@ -72,8 +72,8 @@ let videos = Array(
     'Dos prisioneras no soportan el encierro, así que deciden pasar un rato follando para entretenerse.', categoria[6][0]),
   Array('https://www.xvideos.com/embedframe/45663615', 'FUCKING A WOMAN, GIA ITZEL WITH EVA DAVAI, shemale big dick',
     'Probando por primera vez con una trans, mi esposa y yo nos la follamos rico.', categoria[6][0]),
-Array('https://www.xvideos.com/embedframe/10245','Kagney Linn Karter and Tori Black',
-'Dos lindas mujeres en ropa interior deciden follar en la asotea de un hotel.', categoria[6][0]),
+  Array('https://www.xvideos.com/embedframe/10245', 'Kagney Linn Karter and Tori Black',
+    'Dos lindas mujeres en ropa interior deciden follar en la asotea de un hotel.', categoria[6][0]),
 );
 
 /* video #7 */
@@ -93,30 +93,34 @@ let publicaciones =
   ];
 
 
-function cargarVideos(categoria) {
+function cargarVideos(categorias) { 
+  let contenedor = document.querySelector('.container-fluid');
+  contenedor.innerHTML = '<section class="row contenido pt-5"></section>';
   let contenido = document.querySelector('.contenido');
   for (let i = 0; i < videos.length; i++) {
-
-    contenido.innerHTML += '<div class="video">' +
-      '<iframe src="' + videos[i][0] + '" frameborder="0" height="250"></iframe>' +
-      '<br>' +
-      '<h2>' + videos[i][1] + '</h2>' +
-      '<p align="justify">' + videos[i][2] + '<br><b>Categoria:</b>' + videos[i][3] + '</p></div>';
+    if (categoria[categorias][0] === videos[i][3]) {
+      contenido.innerHTML += '<div class="video">' +
+        '<iframe src="' + videos[i][0] + '" frameborder="0" height="250"></iframe>' +
+        '<br>' +
+        '<h2>' + videos[i][1] + '</h2>' +
+        '<p align="justify">' + videos[i][2] + '<br><b>Categoria:</b>' + videos[i][3] + '</p></div>';
+    }
   }
 }
 
-function mostrarVideos(categoria) {
-
+function mostrarVideos(categorias) {
+/*
   let navbar = '<nav class="row"><input type="checkbox" id="ck"><label class="logo text-white pl-4">PORNO+</label><ul><li class="opcion"><a href="#" class="" style="text-decoration: none;">Inicio</a></li><li class="opcion"><a href="#" style="text-decoration: none;">Contacto</a></li><li class="opcion"><a href="#" style="text-decoration: none;">Conocenos</a></li><li class="opcion"><a href="#" style="text-decoration: none;"><span class="icon-user"></span></a></li></ul><label for="ck" class="ckbtn">≡</label></nav>';
   let contenido = document.querySelector('#seccionContenido');
   contenido.innerHTML = navbar +
     '<iframe src="videos.html" frameborder="0" style="left:0; width:100%; height: 100vh; position:absolute;"></iframe>';
-  cargarVideos(categoria);
+ */ cargarVideos(categorias);
 }
 
 function cargarCategorias() {
   let contenido = document.querySelector('#contenidoCategorias');
   for (let i = 0; i < categoria.length; i++) {
+
     contenido.innerHTML += '<div class="card m-auto" style="width: 18rem;">' +
       '<a href="#">' +
       '<img src="./assets/img/bg1.jpg" class="card-img-top" alt="...">' +
@@ -125,7 +129,7 @@ function cargarCategorias() {
       '<h5 class="card-title">' + categoria[i][0] + '</h5>' +
       '<p class="card-text" align="justify">' + categoria[i][1] + '</p>' +
 
-      '<a href="#" onclick="mostrarVideos(' + 1 + ');" class="text-success">Hechar un vistazo!</a>' +
+      '<a href="#" onclick="mostrarVideos(' + i + ');" class="text-success">Hechar un vistazo!</a>' +
       '</div>' +
       '</div>';
   }

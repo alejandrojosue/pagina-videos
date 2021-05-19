@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/block/navbar.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="row">
+        <input type="checkbox" id="ck">
+
+        <label class="logo text-white pl-4">Diseño Web</label>
+        <ul>
+            <li class="opcion">
+                <a href="#" onclick="inicio();" style="text-decoration: none;">Inicio</a>
+            </li>
+            <li class="opcion">
+                <a href="#"  style="text-decoration: none;">Contacto</a>
+            </li>
+            <li class="opcion">
+                <a href="#" style="text-decoration: none;">Conocenos</a>
+            </li>
+            <li class="opcion">
+                <a href="#" style="text-decoration: none;"><span class="icon-user"></span></a>
+            </li>
+        </ul>
+        <label for="ck" class="ckbtn">≡</label>
+    </nav>
+    <div class="conte"></div>
+    <!--<iframe src="index.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>
+    -->
+<script>
+    function inicio(){
+        document.querySelector('.conte').innerHTML = '<iframe src="inicio.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>';
+    }
+    function videos(){
+        document.querySelector('.conte').innerHTML = '<iframe src="videos.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>';
+    }
+</script>
+
+</body>
+
+</html>

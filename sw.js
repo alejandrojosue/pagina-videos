@@ -5,6 +5,8 @@ const CACHE_NAME = 'v1_cache_programador_web',
         /*ARCHIVOS O ENLACES A GUARDAR EN LA CACHE*/
         './',
         './js/main.js',
+        './videos.html',
+        './inicio.html',
         './css/config/font.css',
         './css/pages/videos.css',
         './css/style.css',

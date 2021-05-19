@@ -1,13 +1,13 @@
 // categoria = [[Nombre_categoria, Descripcion]]
 let categoria =
-  [['Lésbico', 'Verás muchos ricos videos sobre porno lésbico para mojarte, prepárate para correrte!'],
-  ['Maduras', '¿Te da morbo las maduras?, dale clic y disfruta de todo nuestro conenido.'],
-  ['Hentai', 'Eres joven y te gusta el anime?, te excita los gemidos de esas sexis chicas del anime?... Comienza con nuestro contenido! te mojarás al instánte.'],
-  ['Faking', 'También podrás disfrutar de la pornografía española que a muchos le excita, siéntete libre de probarlo!']
-    , ['Tríos', 'No olvidamos lo delicioso que es ver un trío, así que te traemos los mejores tríos de la web!']
-    , ['Mia Khalifa', '¿Todavia no superas la deserción de la fantástica Mia?, pues dejanos mostrarte todo su contenido!']
-    , ['Transexual', 'Deja ya de repetir lo mismo, es hora de probar cosas nuevas!']
-    , ['Mamadas', 'Eres mujer u hombre y te excita ver como maman pene, mira contenido ya!']
+  [['Lésbico', 'Verás muchos ricos videos sobre porno lésbico para mojarte, prepárate para correrte!','./assets/img/lesbico.jpg'],
+  ['Maduras', '¿Te da morbo las maduras?, dale clic y disfruta de todo nuestro conenido.','./assets/img/lesbico.jpg'],
+  ['Hentai', 'Eres joven y te gusta el anime?, te excita los gemidos de esas sexis chicas del anime?... Comienza con nuestro contenido! te mojarás al instánte.','./assets/img/lesbico.jpg'],
+  ['Faking', 'También podrás disfrutar de la pornografía española que a muchos le excita, siéntete libre de probarlo!','./assets/img/lesbico.jpg']
+    , ['Tríos', 'No olvidamos lo delicioso que es ver un trío, así que te traemos los mejores tríos de la web!','./assets/img/lesbico.jpg']
+    , ['Mia Khalifa', '¿Todavia no superas la deserción de la fantástica Mia?, pues dejanos mostrarte todo su contenido!','./assets/img/lesbico.jpg']
+    , ['Transexual', 'Deja ya de repetir lo mismo, es hora de probar cosas nuevas!','./assets/img/lesbico.jpg']
+    , ['Mamadas', 'Eres mujer u hombre y te excita ver como maman pene, mira contenido ya!','./assets/img/lesbico.jpg']
   ];
 
 //videos = Array(url, Titulo, Descripcion, categoria) 9133317
@@ -123,7 +123,7 @@ function cargarCategorias() {
 
     contenido.innerHTML += '<div class="card m-auto" style="width: 18rem;">' +
       '<a href="#">' +
-      '<img src="./assets/img/bg1.jpg" class="card-img-top" alt="...">' +
+      '<img src="'+categoria[i][2]+'" class="card-img-top" alt="...">' +
       '</a>' +
       '<div class="card-body">' +
       '<h5 class="card-title">' + categoria[i][0] + '</h5>' +

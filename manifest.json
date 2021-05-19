@@ -1,0 +1,59 @@
+{
+    "name": "Porno+",
+    "short_name": "Porno+",
+    "description": "Una pagina donde podras disfrutar de contenido pornografico de manera sencilla y excitante",
+    "background_color": "rgb(250,250,250)",
+    "theme_color": "#fff",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+        {
+            "src": "./assets/iconos/icono512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono64x64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/iconos/icono16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}

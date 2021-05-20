@@ -82,7 +82,7 @@ let videos = Array(
 let noticias =
   [['Mia Khalifa', 'Se considera a Mia Khalifa como la mejor actriz porno.', 'May. 16 2021'],
   ['Únete a nuestro grupo de Telegram!', 'Podrás ver más porno!, Ayuda a crecer a nuestra comunidad!' +
-    '<br>Grupo: <a href="https://t.me/porno_de_todo_rico" class="text-primary">Porno de Todo</a>', 'May. 17 2021']
+    '<br>Grupo: <a href="https://t.me/porno_de_todo_rico" target="blank" class="text-primary">Porno de Todo</a>', 'May. 17 2021']
   ];
 
 //publicaciones = [Titulo, Contenido, Fecha]

@@ -42,7 +42,7 @@ let videos = Array(
         'Comiendo el rico semen de mi novio.',categoria[8][0]),
   Array('https://www.xvideos.com/embedframe/36815749','Gustosa','',categoria[8][0]),
   Array('https://www.xvideos.com/embedframe/59458275','Un rapidin en la moto','',categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/55180851', "NICHE PARADE - Jerking Off In Front Of 2 Random Girls 'Cause I'm Bored Of Being Home All Day",
+  Array('https://www.xvideos.com/embedframe/55180851',"NICHE PARADE - Jerking Off In Front Of 2 Random Girls 'Cause I'm Bored Of Being Home All Day",
         'Dos mujeres se detienen a ver como me la jalo.',categoria[8][0]),
   Array('https://www.xvideos.com/embedframe/36488847','Woman watches me jerking off on a tram! # Stacy Sommers','',categoria[8][0]),
   Array('https://www.xvideos.com/embedframe/33698471','Colombian woman sees me masturbating and wants to suck my dick ','',categoria[8][0]),
@@ -220,8 +220,7 @@ function mostrarVideos(categorias) {
 function cargarCategorias() {
   let contenido = document.querySelector('#contenidoCategorias');
   for (let i = 0; i < categoria.length; i++) {
-
-    contenido.innerHTML += '<div class="card m-auto" style="width: 18rem;">' +
+    contenido.innerHTML += '<div class="card mx-auto my-1" style="width: 18rem;">' +
       '<a href="#">' +
       '<img src="'+categoria[i][2]+'" class="card-img-top" alt="...">' +
       '</a>' +
@@ -237,7 +236,7 @@ function cargarCategorias() {
 
 function cargarNoticias() {
   let contenido = document.querySelector('#contenidoNoticias');
-
+  contenido.innerHTML += '<h1 align="center" class="text-primary">Noticias</h1>';
   if (noticias.length < 4) {
     for (let i = 0; i < noticias.length; i++) {
       contenido.innerHTML += '<div class="border w-100 my-4 mr-4" style="width: 18rem;">' +
@@ -266,7 +265,7 @@ function cargarNoticias() {
 
 function cargarPublicaciones() {
   let contenido = document.querySelector('#contenidoPublicaciones');
-
+  contenido.innerHTML += '<h1 align="center" class="text-primary">Publicaciones</h1>';
   for (let i = 0; i < publicaciones.length; i++) {
     contenido.innerHTML += '<div id="contenidoPublicaciones" class="row border-top m-4 p-4">' +
       '<h1>' + publicaciones[i][0] + '</h1>' +
@@ -275,24 +274,31 @@ function cargarPublicaciones() {
     '</div>';
   }
 
-  contenido.innerHTML += '<a href="#" class="btn border rounded-0 border-primary">Registrarse</a>' +
+  contenido.innerHTML += '<span class="btn btn-outline-primary btnTop" onclick="subir();">Subir</span>' +
     '<div class="d-flex mb-4">' +
-    '<ul class="pagination m-auto">' +
-    '<li class="page-item">' +
-    '<a class="page-link" href="#" aria-label="Previous">' +
-    '<span aria-hidden="true">&laquo;</span>' +
-    '</a>' +
-    '</li>' +
-    '<li class="page-item"><a class="page-link" href="#">1</a></li>' +
-    '<li class="page-item"><a class="page-link" href="#">2</a></li>' +
-    '<li class="page-item">' +
-    '<a class="page-link" href="#" aria-label="Next">' +
-    '<span aria-hidden="true">&raquo;</span>' +
-    '</a>' +
-    '</li>' +
-    '</ul>' +
+      '<ul class="pagination m-auto">' +
+      '<li class="page-item">' +
+      '<a class="page-link" href="#" aria-label="Previous">' +
+      '<span aria-hidden="true">&laquo;</span>' +
+      '</a>' +
+      '</li>' +
+      '<li class="page-item"><a class="page-link" href="#">1</a></li>' +
+      '<li class="page-item"><a class="page-link" href="#">2</a></li>' +
+      '<li class="page-item">' +
+      '<a class="page-link" href="#" aria-label="Next">' +
+      '<span aria-hidden="true">&raquo;</span>' +
+      '</a>' +
+      '</li>' +
+      '</ul>' +
     '</div>';
 
+}
+
+function subir(){
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 }
 
 function indexInicio() {

@@ -187,9 +187,14 @@ let noticias =
 
 //publicaciones = [Titulo, Contenido, Fecha]
 let publicaciones =
-  [['Cómo hacer que tu semen sepa más rico!',
+  [
+    ['Ejercicios para agrandar tu pene',
+   '<ul><li>Haz estos ejercicios solo mientras el pene esté flácido.</li><li>Detente si el ejercicio te causa dolor o incomodidad.</li><li>Mientras los haces, siéntate o párate contra una pared o mesa.</li><li>Para evitar lesiones, solo haz estos ejercicios una o dos veces al día.</li><li>Habla con tu médico si deseas hacer estos ejercicios por más tiempo o hacerlos con más frecuencia.</li></ul>',
+   'Jueves 20 de Mayo del 2021'],
+    ['Cómo hacer que tu semen sepa más rico!',
     'Evita: embutirte de pura garnacha. Somos lo que comemos, así que si te empinas 15 chelas y 22 tacos de pastor con mucha cebolla, evita pedirle a tu chica/o que te haga sexo oral. Si lo haces, seguramente escupirá todo y te mandará lejos cuando le digas que quieres continuar con sexo desenfrenado toda la noche.De igual forma rechaza categóricamente comer espárragos, brócoli o col, pues le dará al semen un sabor espantoso. Y, por supuesto, no te empaques de comidas enlatadas, embutidos o muy grasosas, pues esto hará que aumente la salinidad del semen y… #Guácala.Si creías que el semen sólo está compuesto por espermas, has vivido en un craso error toda tu vida. También contiene azúcares, proteínas, sales, vitaminas y minerales. Un combo de salud. Por tanto, no la riegues con tu alimentación.',
     'Domingo 16 de Mayo del 2021']
+   
   ];
 
 

@@ -11,6 +11,7 @@
     <link rel="manifest" href="./manifest.json">
     <link rel="shortcut icon" href="./assets/iconos/icono16x16.png">
     <title>Porno+</title>
+    
 </head>
 
 <body onload="inicio();">
@@ -24,10 +25,7 @@
                 <a href="#" onclick="inicio();" style="text-decoration: none;">Inicio</a>
             </li>
             <li class="opcion">
-                <a href="#"  style="text-decoration: none;">Contacto</a>
-            </li>
-            <li class="opcion">
-                <a href="#" style="text-decoration: none;">Conocenos</a>
+                <a href="#" onclick="tareas();" style="text-decoration: none;">Favoritos</a>
             </li>
             <li class="opcion">
                 <a href="#" style="text-decoration: none;"><span class="icon-user"></span></a>
@@ -38,12 +36,16 @@
     <div class="conte"></div>
     <!--<iframe src="index.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>
     -->
+    
 <script>
     function inicio(){
         document.querySelector('.conte').innerHTML = '<iframe src="inicio.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>';
     }
     function videos(){
         document.querySelector('.conte').innerHTML = '<iframe src="videos.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>';
+    }
+    function tareas(){
+        document.querySelector('.conte').innerHTML = '<iframe src="tareas.html" frameborder="0" style="position: absolute; left:0; width: 100vw; height: 100vh;"></iframe>';
     }
 </script>
 

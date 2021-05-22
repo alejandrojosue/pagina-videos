@@ -1,432 +1,431 @@
 // categoria = [[Nombre_categoria, Descripcion]]
-let categoria =
-  [['Lésbico', 'Verás muchos ricos videos sobre porno lésbico para mojarte, prepárate para correrte!', './assets/img/lesbico.jpg'],
-  ['Maduras', '¿Te da morbo las maduras?, dale clic y disfruta de todo nuestro conenido.', './assets/img/maduras.jpg'],
-  ['Hentai', 'Eres joven y te gusta el anime?, te excita los gemidos de esas sexis chicas del anime?... Comienza con nuestro contenido! te mojarás al instánte.', './assets/img/henati.jpg'],
-  ['Faking', 'También podrás disfrutar de la pornografía española que a muchos le excita, siéntete libre de probarlo!', './assets/img/faking.jpg']
-    , ['Tríos', 'No olvidamos lo delicioso que es ver un trío, así que te traemos los mejores tríos de la web!', './assets/img/trios.jpg']
-    , ['Mia Khalifa', '¿Todavia no superas la deserción de la fantástica Mia?, pues dejanos mostrarte todo su contenido!', './assets/img/miakhalifa.jpg']
-    , ['Transexual', 'Deja ya de repetir lo mismo, es hora de probar cosas nuevas!', './assets/img/shemale.jpg']
-    , ['Mamadas', 'Eres mujer u hombre y te excita ver como maman pene, mira contenido ya!', './assets/img/mamadas.jpg']
-    , ['Publico', 'Te da morbo el simple hecho de hacerlo en público, pues aquí te dejamos algunos videos donde podrás seguir fantaseando con ello!', './assets/img/publico.jpg']
-  ];
+let categoria = [
+    ['Lésbico', 'Verás muchos ricos videos sobre porno lésbico para mojarte, prepárate para correrte!', './assets/img/lesbico.jpg'],
+    ['Maduras', '¿Te da morbo las maduras?, dale clic y disfruta de todo nuestro conenido.', './assets/img/maduras.jpg'],
+    ['Hentai', 'Eres joven y te gusta el anime?, te excita los gemidos de esas sexis chicas del anime?... Comienza con nuestro contenido! te mojarás al instánte.', './assets/img/henati.jpg'],
+    ['Faking', 'También podrás disfrutar de la pornografía española que a muchos le excita, siéntete libre de probarlo!', './assets/img/faking.jpg'],
+    ['Tríos', 'No olvidamos lo delicioso que es ver un trío, así que te traemos los mejores tríos de la web!', './assets/img/trios.jpg'],
+    ['Mia Khalifa', '¿Todavia no superas la deserción de la fantástica Mia?, pues dejanos mostrarte todo su contenido!', './assets/img/miakhalifa.jpg'],
+    ['Transexual', 'Deja ya de repetir lo mismo, es hora de probar cosas nuevas!', './assets/img/shemale.jpg'],
+    ['Mamadas', 'Eres mujer u hombre y te excita ver como maman pene, mira contenido ya!', './assets/img/mamadas.jpg'],
+    ['Publico', 'Te da morbo el simple hecho de hacerlo en público, pues aquí te dejamos algunos videos donde podrás seguir fantaseando con ello!', './assets/img/publico.jpg']
+];
 
 //videos = Array(url, Titulo, Descripcion, categoria) 9133317
 let videos = Array(
-  Array('https://www.xvideos.com/embedframe/44707549', 'Granny touch my dick in train',
-    'Mi esposa me toca la polla en pleno tren lleno', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/35475791', 'Le sorprende el tamaño y la agarra',
-    'Bella jovencita me toca el pene', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/13291685', 'SHE TOUCH SHORT TOUCH',
-    'Tocandome la verga desconocida', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/46118631', 'Milf touch mi dick',
-    'Señora me manosea mi pene!', categoria[8][0]),
-  Array("https://www.xvideos.com/embedframe/49173365", "My Dick Stroke Aunt's Fat Ass and Legs in Public Train",
-    '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/55483425', "Stranger Fondle Woman's Pussy Over Panties Under her Mini Dress in Metro Subway",
-    '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/35345699', 'Jerking My Dick in Concert on Sexy Ass',
-    '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/51337885', 'Concert Grope dance on my dick ( part 2 she enjoyed ) ',
-    '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/8491744', 'Incredible Groping In Bus Sex', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/44707549', 'Granny touch my dick in train',
+        'Mi esposa me toca la polla en pleno tren lleno', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/35475791', 'Le sorprende el tamaño y la agarra',
+        'Bella jovencita me toca el pene', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/13291685', 'SHE TOUCH SHORT TOUCH',
+        'Tocandome la verga desconocida', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/46118631', 'Milf touch mi dick',
+        'Señora me manosea mi pene!', categoria[8][0]),
+    Array("https://www.xvideos.com/embedframe/49173365", "My Dick Stroke Aunt's Fat Ass and Legs in Public Train",
+        '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/55483425', "Stranger Fondle Woman's Pussy Over Panties Under her Mini Dress in Metro Subway",
+        '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/35345699', 'Jerking My Dick in Concert on Sexy Ass',
+        '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/51337885', 'Concert Grope dance on my dick ( part 2 she enjoyed ) ',
+        '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/8491744', 'Incredible Groping In Bus Sex', '', categoria[8][0]),
 
-  Array('https://www.xvideos.com/embedframe/30073747', 'coroa pega no pau dentro do onibus', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/10076538', 'agarron en el metro', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/36860617', 'Encoxando uma coroa gostosa', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/40312733', 'Creo que voy a fiestas mas seguido', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/33431069', 'que rico me agarra mi pene la vecina', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/24015883', 'La sirvienta me ayuda 1', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/33459267', 'Extraña me mama la verga en el Avión', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/14998199', 'Cum Gatinha comendo Batatinha com Porra',
-    'Comiendo el rico semen de mi novio.', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/36815749', 'Gustosa', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/59458275', 'Un rapidin en la moto', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/55180851', "NICHE PARADE - Jerking Off In Front Of 2 Random Girls 'Cause I'm Bored Of Being Home All Day",
-    'Dos mujeres se detienen a ver como me la jalo.', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/36488847', 'Woman watches me jerking off on a tram! # Stacy Sommers', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/33698471', 'Colombian woman sees me masturbating and wants to suck my dick ', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/9068341', 'Horny Lesbians On The Bus', '', categoria[8][0]),
-  Array('https://www.xvideos.com/embedframe/61896357', 'Unknown Woman Touch my Cock in Subway', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/30073747', 'coroa pega no pau dentro do onibus', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/10076538', 'agarron en el metro', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/36860617', 'Encoxando uma coroa gostosa', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/40312733', 'Creo que voy a fiestas mas seguido', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/33431069', 'que rico me agarra mi pene la vecina', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/24015883', 'La sirvienta me ayuda 1', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/33459267', 'Extraña me mama la verga en el Avión', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/14998199', 'Cum Gatinha comendo Batatinha com Porra',
+        'Comiendo el rico semen de mi novio.', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/36815749', 'Gustosa', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/59458275', 'Un rapidin en la moto', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/55180851', "NICHE PARADE - Jerking Off In Front Of 2 Random Girls 'Cause I'm Bored Of Being Home All Day",
+        'Dos mujeres se detienen a ver como me la jalo.', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/36488847', 'Woman watches me jerking off on a tram! # Stacy Sommers', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/33698471', 'Colombian woman sees me masturbating and wants to suck my dick ', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/9068341', 'Horny Lesbians On The Bus', '', categoria[8][0]),
+    Array('https://www.xvideos.com/embedframe/61896357', 'Unknown Woman Touch my Cock in Subway', '', categoria[8][0]),
 
-  Array('https://www.xvideos.com/embedframe/62622307', 'Mami tetona engaña a un jovencito candidato a actor porno',
-    'Tetona madura le dice a un jovencito que no sabe nada, cuando en realidad lo hace como diosa!', categoria[3][0]),
-  Array('https://www.xvideos.com/embedframe/62124721', 'Mami Damaris ha venido a enseñar a follar a este joven',
-    'Rica mujer española le enseña a follar a chaval sin rodeos.', categoria[3][0]),
-  Array('https://www.xvideos.com/embedframe/59126491', 'Damaris demuestra porqué la llaman "La reina de las gargantas profundas"',
-    'Mujer sexosa le chupa el pene a joven español, mostrándo porque es tan famosa por mamar pollas.', categoria[3][0]),
-  Array('https://www.xvideos.com/embedframe/59109159', 'Lily solo tiene 18 y quiere follar de verdad. "Ayúdame, FAKings!"',
-    'Lily es una rica jovencita de tan sólo 18 años que quiere comenzar en el mundo de la pornografía y necesita ayuda para salir adelante, Faking le ayuda en eso!', categoria[3][0]),
-  Array('https://www.xvideos.com/embedframe/59126477', 'Ducha de semen para la teen Lily y la madura Lylah',
-    'Dos hermosas mujeres se bañan con semen mientras varios hombres se mansturaban y acaban en sus caras.', categoria[3][0]),
-  Array('https://www.xvideos.com/embedframe/59145507', 'Denise (21) y Zazel (52) se enseñan unas lecciones entre ellas',
-    'Dos chicas se dan consejos mientras practican sexo lesbiano.', categoria[3][0]),
+    Array('https://www.xvideos.com/embedframe/62622307', 'Mami tetona engaña a un jovencito candidato a actor porno',
+        'Tetona madura le dice a un jovencito que no sabe nada, cuando en realidad lo hace como diosa!', categoria[3][0]),
+    Array('https://www.xvideos.com/embedframe/62124721', 'Mami Damaris ha venido a enseñar a follar a este joven',
+        'Rica mujer española le enseña a follar a chaval sin rodeos.', categoria[3][0]),
+    Array('https://www.xvideos.com/embedframe/59126491', 'Damaris demuestra porqué la llaman "La reina de las gargantas profundas"',
+        'Mujer sexosa le chupa el pene a joven español, mostrándo porque es tan famosa por mamar pollas.', categoria[3][0]),
+    Array('https://www.xvideos.com/embedframe/59109159', 'Lily solo tiene 18 y quiere follar de verdad. "Ayúdame, FAKings!"',
+        'Lily es una rica jovencita de tan sólo 18 años que quiere comenzar en el mundo de la pornografía y necesita ayuda para salir adelante, Faking le ayuda en eso!', categoria[3][0]),
+    Array('https://www.xvideos.com/embedframe/59126477', 'Ducha de semen para la teen Lily y la madura Lylah',
+        'Dos hermosas mujeres se bañan con semen mientras varios hombres se mansturaban y acaban en sus caras.', categoria[3][0]),
+    Array('https://www.xvideos.com/embedframe/59145507', 'Denise (21) y Zazel (52) se enseñan unas lecciones entre ellas',
+        'Dos chicas se dan consejos mientras practican sexo lesbiano.', categoria[3][0]),
 
-  Array('https://www.xvideos.com/embedframe/48934243', 'Surprising Bestie With Her Mans Cock In First Threesome S31:E4',
-    'Tengo sexo con mi novio y mi mejor amiga!', categoria[4][0]),
-  Array('https://www.xvideos.com/embedframe/58921493', 'Sensual Halloween Threesome With Smoking Hot Brunettes Alyssa Bounty and Lady D - S37:E16',
-    'Fiestas de disfraces resulta acabar con un rico trío.', categoria[4][0]),
-  Array('https://www.xvideos.com/embedframe/28885831', 'Bridesmaids Sneak Fuck Groom- His Last Threesome!',
-    'Tedniendo nuevas experiencias, rico trío con mis mejores amigos!', categoria[4][0]),
-  Array('https://www.xvideos.com/embedframe/22707653', 'USHY Wife Mystica Jade Tries Threesome',
-    'Que rico se siente que me penetren 2 deliciosas vergas!', categoria[4][0]),
-  Array('https://www.xvideos.com/embedframe/21483179', 'TUSHY First Double Penetration For Natasha Nice',
-    'No puedo desaprovechar esta oportunidad!, debo comerme estas dos ricas pollas.', categoria[4][0]),
-  Array('https://www.xvideos.com/embedframe/23894222', 'threesome lesbian teens',
-    'Tenemos el mejor trío de lesbianas usando arnés para darse un placer inimaginable.', categoria[4][0]),
+    Array('https://www.xvideos.com/embedframe/48934243', 'Surprising Bestie With Her Mans Cock In First Threesome S31:E4',
+        'Tengo sexo con mi novio y mi mejor amiga!', categoria[4][0]),
+    Array('https://www.xvideos.com/embedframe/58921493', 'Sensual Halloween Threesome With Smoking Hot Brunettes Alyssa Bounty and Lady D - S37:E16',
+        'Fiestas de disfraces resulta acabar con un rico trío.', categoria[4][0]),
+    Array('https://www.xvideos.com/embedframe/28885831', 'Bridesmaids Sneak Fuck Groom- His Last Threesome!',
+        'Tedniendo nuevas experiencias, rico trío con mis mejores amigos!', categoria[4][0]),
+    Array('https://www.xvideos.com/embedframe/22707653', 'USHY Wife Mystica Jade Tries Threesome',
+        'Que rico se siente que me penetren 2 deliciosas vergas!', categoria[4][0]),
+    Array('https://www.xvideos.com/embedframe/21483179', 'TUSHY First Double Penetration For Natasha Nice',
+        'No puedo desaprovechar esta oportunidad!, debo comerme estas dos ricas pollas.', categoria[4][0]),
+    Array('https://www.xvideos.com/embedframe/23894222', 'threesome lesbian teens',
+        'Tenemos el mejor trío de lesbianas usando arnés para darse un placer inimaginable.', categoria[4][0]),
 
-  Array('https://www.xvideos.com/embedframe/54959041', 'MIA KHALIFA - Big Tits Arab Slow Motion Blowjob',
-    'Mia Khalifa se come una gran polla mientras está en la bañera.', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/54439221', 'MIA KHALIFA - Arab Cutie Taking BBC Doggystyle On Loop',
-    'Mia Khalifa es fuertemente follada por una gram polla de negro.', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/54439589', 'MIA KHALIFA - Where The Real Brothas At!? Leave A Comment Below',
-    'Chupando polla de negro bien rica mientras soy penetrada por otro.', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/54439723', 'MIA KHALIFA - Lebanese Babe Sucking 2 BBCs Back To Back (Loop)',
-    'Chupando dos grandes y ricas pollas de las que más me gustan!', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/61937323', 'MIA KHALIFA - Enjoy This Intimate Tour Of An Amazing Arab Body',
-    'Presumiendo mi lindo y rico cuerpo para provocar a todos estando en la biblioteca', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/42158363', 'BANGBROS - Watch Mia Khalifa & Julianna Vega Fuck Sean Lawless... With Bonus Content! ',
-    'Peleando con mi madre a ver quien le chupa más rico el pene a mi novio para que decida con quién quedarse el muy puto.', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/42229889', 'bangbros the most heavenly creature mia khalifa taking a big dick',
-    'Cogiendo duro con mi chico.', categoria[5][0]),
-  Array('https://www.xvideos.com/embedframe/40224093', 'BANGBROS - The Most Heavenly Creature, Mia Khalifa, Taking A Big Dick',
-    'Probando la gran polla de mi amorcito!', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/54959041', 'MIA KHALIFA - Big Tits Arab Slow Motion Blowjob',
+        'Mia Khalifa se come una gran polla mientras está en la bañera.', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/54439221', 'MIA KHALIFA - Arab Cutie Taking BBC Doggystyle On Loop',
+        'Mia Khalifa es fuertemente follada por una gram polla de negro.', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/54439589', 'MIA KHALIFA - Where The Real Brothas At!? Leave A Comment Below',
+        'Chupando polla de negro bien rica mientras soy penetrada por otro.', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/54439723', 'MIA KHALIFA - Lebanese Babe Sucking 2 BBCs Back To Back (Loop)',
+        'Chupando dos grandes y ricas pollas de las que más me gustan!', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/61937323', 'MIA KHALIFA - Enjoy This Intimate Tour Of An Amazing Arab Body',
+        'Presumiendo mi lindo y rico cuerpo para provocar a todos estando en la biblioteca', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/42158363', 'BANGBROS - Watch Mia Khalifa & Julianna Vega Fuck Sean Lawless... With Bonus Content! ',
+        'Peleando con mi madre a ver quien le chupa más rico el pene a mi novio para que decida con quién quedarse el muy puto.', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/42229889', 'bangbros the most heavenly creature mia khalifa taking a big dick',
+        'Cogiendo duro con mi chico.', categoria[5][0]),
+    Array('https://www.xvideos.com/embedframe/40224093', 'BANGBROS - The Most Heavenly Creature, Mia Khalifa, Taking A Big Dick',
+        'Probando la gran polla de mi amorcito!', categoria[5][0]),
 
-  Array("https://www.xvideos.com/embedframe/32149719", "Pareja Madura Y Caliente Cogiendo Rico!",
-    'Cogiendome rico es esta madura!', categoria[1][0]),
-  Array('https://www.xvideos.com/embedframe/32132649', 'AgedLovE Busty Mature Hardcore Suck and Fuck',
-    'Mi primera vez con mi madrasta, una rica madura!', categoria[1][0]),
-  Array('https://www.xvideos.com/embedframe/35897063', 'AgedLovE Two Matures Threesome Hardcore Sex',
-    'Mi amiga y yo nos follamos a lindo jovencito.', categoria[1][0]),
-  Array('https://www.xvideos.com/embedframe/60871185', 'AGEDLOVE Mature with Big Natural Tits Hard Fucked',
-    'Disfrutándo la primera vez con una madura tetona.', categoria[1][0]),
-  Array('https://www.xvideos.com/embedframe/60433789', 'AgedLovE Busty British Matures Hard Group Sex',
-    'Rica doctora madura me ayuda a atender mi deseo sexual y me folla rico', categoria[1][0]),
-  Array('https://www.xvideos.com/embedframe/57571377', 'AgedLovE British Mature Group Sex and Toying',
-    'Maduras follando en grupo.', categoria[1][0]),
-  Array('https://www.xvideos.com/embedframe/62870729', 'Cogiendo con hermana en la bañera',
-    'Mi hermana no me deja opción, así que me la cojo mientras nos bañamos juntos', categoria[2][0]),
-  Array('https://www.xvideos.com/embedframe/62937693', 'Primera vez de su hermana',
-    'Mi linda hermana me observa desde hace mucho tiempo y ya no me contengo tampoco!', categoria[2][0]),
-  Array('https://www.xvideos.com/embedframe/62727349', 'joven folla con chica en el gimnasio',
-    'Colegiala quiere chuparle la sangre a su compañero, pero esta termina chupándole la verga y se lo coge.', categoria[2][0]),
-  Array('https://www.xvideos.com/embedframe/61798041', "Virgin Fucks Friend's Aunt Hentai",
-    'Follándo a la rica tía de mi mejor amigo', categoria[2][0]),
-  Array('https://www.xvideos.com/embedframe/57912587', 'EL REY DEL ARRIMON | ARRIMON EN EL METRO (MEXICO)',
-    'Dos lindas mujeres mamando mi verga bien rico.', categoria[7][0]),
-  Array('https://www.xvideos.com/embedframe/15533767', 'La Novia y las amigas, terrible pete',
-    'Mi novia y sus amigas se ponen  a mamarme rico el pene hasta venirme.', categoria[7][0]),
-  Array('https://www.xvideos.com/embedframe/17108205', 'Dos amigas me chupan la pija, mi rubia y su amiga',
-    'Dos bellas damas mamando una rica verga', categoria[7][0]),
-  Array('https://www.xvideos.com/embedframe/22220457', 'Dos putas mamando',
-    'Mujeres sexis me maman el pene bien rico.', categoria[7][0]),
-  Array('https://www.xvideos.com/embedframe/28502325', 'Double amateur blowjob. Huge cumshot',
-    'Estas perras me la chupan tan rico que hacen que me venga.', categoria[7][0]),
-  Array('https://www.xvideos.com/embedframe/1069928', 'They suck him like a king',
-    'Dos hermosas chicas chupandome el pene estando en la piscina hasta correrme.', categoria[7][0]),
-  Array('https://drive.google.com/file/d/1DzxFG4w3ljrNyUb26KJINKG4QfJ7SyYa/preview', 'Policia Sometedora',
-    'Una oficial somete fuertemente a una mujer y la coge.', categoria[0]),
-  Array('https://drive.google.com/file/d/1Jps5QemUYWWCa8ic9KOcV4L_bPFbDm6g/preview', 'Cogida grupal con arnes',
-    'Un grupo de chicas pasándola rico mientras se follan mutuamente.', categoria[0][0]),
-  Array('https://drive.google.com/file/d/1XuggLG0YIdBiJ8AEeza86V-orGjqk2Tt/preview', 'Trío Lésbico',
-    'Tres ricas lesbianas dándose mucho amor.', categoria[0][0]),
-  Array('https://drive.google.com/file/d/1mzHH5l8tk88zAEwfBoKFwKs9jzAcwS_w/preview', 'Colegiada cogida por su maestra',
-    'Una linda y cachonda colegiada le pide ayuda a su maestra, y mientras están en la cocina, se prenden y empiezan a follar.', categoria[0][0]),
-  Array('https://www.xvideos.com/embedframe/42306427', 'Sweetheart Cherie DeVille & AJ Applegate Scissor All Night',
-    'Dos hermosas mujeres entrando en contacto físico paraexcitarse una a la otra, mientras hacen tijeras.', categoria[0][0]),
-  Array('https://www.xvideos.com/embedframe/47473025', 'Sweetheart MILF Scissoring Teen in Wet White Panties',
-    'Dos cachondas mujeres frotándose al lado de una piscina hasta el orgasmo.', categoria[0][0]),
-  Array('https://www.xvideos.com/embedframe/44315229', 'Sexy sapphic lesbians oil up for fucking',
-    'Dos lesbianas probando una nueva crema para masajes en todo su cuerpo y terminan follando.', categoria[0][0]),
-  Array('https://www.xvideos.com/embedframe/45417553', 'Cute Teen Lesbians Have Strap-On Sex After School',
-    'Dos colegialas probando su arnes para excitarse a más no poder.', categoria[0][0]),
-  Array('https://www.xvideos.com/embedframe/31628279', "Tattooed Doll Sucking A Shemale's Cock",
-    'Chupándole la verga a mi amiga transexual.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/37183031', 'red hotel in Barcelona',
-    'Mi amiga me dice que quiere coger conmigo y mostrarme una sorpresita.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/27897925', 'Luscious Tranny Fucks a Tight Pussy',
-    'Haciendo videollamada para mis fans con mi amiga.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/32558009', 'cum in pussy 2',
-    'Cogiendome a mi mejor amiga shemale', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/32064923', 'Big ass teen ladyboy really enjoys a bareback anal fuck',
-    'Cogiendo a chica que me encontre.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/25211591', 'Big cock teen ladyboy fucked in the ass by a white guy',
-    'Filmando a una joven y linda ladyboy.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/27425255', 'Teen ladyboy amateur with a hot body gives good head',
-    'Mi linda ladyboy me seduce con esa ricura de cuerpo.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/28461557', 'Ladyboy beauty outstanding pov handjob and blowjob',
-    'Mi amiga trans me chupa la verga muy rico', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/27606989', 'Young ladyboy rides cock after a rimjob',
-    'cogiendome a la joven trans que tanto queria', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/26755029', 'Japanese transsexual fucked',
-    'Cogiendome a mi secretaria con pene!', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/28622639', 'Lingerie versatile ladyboy assfucking dude',
-    'Sexo duro cno linda chica trans.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/34455343', 'Amateur babe strokes her dong in solo scene',
-    'Me mansturbo mientras pienso en mi amorcito.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/27508099', 'Newhalf schoolgirl ass banged with passion',
-    'Cogiendome a la rica shemale de mi colegio.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/30932241', 'Cocksucking newhalf pounded in tight ass',
-    'Jugando con la gorda ladyboy.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/10074', 'follando con mi compañera de cuarto',
-    'Dos prisioneras no soportan el encierro, así que deciden pasar un rato follando para entretenerse.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/45663615', 'FUCKING A WOMAN, GIA ITZEL WITH EVA DAVAI, shemale big dick',
-    'Probando por primera vez con una trans, mi esposa y yo nos la follamos rico.', categoria[6][0]),
-  Array('https://www.xvideos.com/embedframe/10245', 'Kagney Linn Karter and Tori Black',
-    'Dos lindas mujeres en ropa interior deciden follar en la asotea de un hotel.', categoria[6][0]),
+    Array("https://www.xvideos.com/embedframe/32149719", "Pareja Madura Y Caliente Cogiendo Rico!",
+        'Cogiendome rico es esta madura!', categoria[1][0]),
+    Array('https://www.xvideos.com/embedframe/32132649', 'AgedLovE Busty Mature Hardcore Suck and Fuck',
+        'Mi primera vez con mi madrasta, una rica madura!', categoria[1][0]),
+    Array('https://www.xvideos.com/embedframe/35897063', 'AgedLovE Two Matures Threesome Hardcore Sex',
+        'Mi amiga y yo nos follamos a lindo jovencito.', categoria[1][0]),
+    Array('https://www.xvideos.com/embedframe/60871185', 'AGEDLOVE Mature with Big Natural Tits Hard Fucked',
+        'Disfrutándo la primera vez con una madura tetona.', categoria[1][0]),
+    Array('https://www.xvideos.com/embedframe/60433789', 'AgedLovE Busty British Matures Hard Group Sex',
+        'Rica doctora madura me ayuda a atender mi deseo sexual y me folla rico', categoria[1][0]),
+    Array('https://www.xvideos.com/embedframe/57571377', 'AgedLovE British Mature Group Sex and Toying',
+        'Maduras follando en grupo.', categoria[1][0]),
+    Array('https://www.xvideos.com/embedframe/62870729', 'Cogiendo con hermana en la bañera',
+        'Mi hermana no me deja opción, así que me la cojo mientras nos bañamos juntos', categoria[2][0]),
+    Array('https://www.xvideos.com/embedframe/62937693', 'Primera vez de su hermana',
+        'Mi linda hermana me observa desde hace mucho tiempo y ya no me contengo tampoco!', categoria[2][0]),
+    Array('https://www.xvideos.com/embedframe/62727349', 'joven folla con chica en el gimnasio',
+        'Colegiala quiere chuparle la sangre a su compañero, pero esta termina chupándole la verga y se lo coge.', categoria[2][0]),
+    Array('https://www.xvideos.com/embedframe/61798041', "Virgin Fucks Friend's Aunt Hentai",
+        'Follándo a la rica tía de mi mejor amigo', categoria[2][0]),
+    Array('https://www.xvideos.com/embedframe/57912587', 'EL REY DEL ARRIMON | ARRIMON EN EL METRO (MEXICO)',
+        'Dos lindas mujeres mamando mi verga bien rico.', categoria[7][0]),
+    Array('https://www.xvideos.com/embedframe/15533767', 'La Novia y las amigas, terrible pete',
+        'Mi novia y sus amigas se ponen  a mamarme rico el pene hasta venirme.', categoria[7][0]),
+    Array('https://www.xvideos.com/embedframe/17108205', 'Dos amigas me chupan la pija, mi rubia y su amiga',
+        'Dos bellas damas mamando una rica verga', categoria[7][0]),
+    Array('https://www.xvideos.com/embedframe/22220457', 'Dos putas mamando',
+        'Mujeres sexis me maman el pene bien rico.', categoria[7][0]),
+    Array('https://www.xvideos.com/embedframe/28502325', 'Double amateur blowjob. Huge cumshot',
+        'Estas perras me la chupan tan rico que hacen que me venga.', categoria[7][0]),
+    Array('https://www.xvideos.com/embedframe/1069928', 'They suck him like a king',
+        'Dos hermosas chicas chupandome el pene estando en la piscina hasta correrme.', categoria[7][0]),
+    Array('https://drive.google.com/file/d/1DzxFG4w3ljrNyUb26KJINKG4QfJ7SyYa/preview', 'Policia Sometedora',
+        'Una oficial somete fuertemente a una mujer y la coge.', categoria[0]),
+    Array('https://drive.google.com/file/d/1Jps5QemUYWWCa8ic9KOcV4L_bPFbDm6g/preview', 'Cogida grupal con arnes',
+        'Un grupo de chicas pasándola rico mientras se follan mutuamente.', categoria[0][0]),
+    Array('https://drive.google.com/file/d/1XuggLG0YIdBiJ8AEeza86V-orGjqk2Tt/preview', 'Trío Lésbico',
+        'Tres ricas lesbianas dándose mucho amor.', categoria[0][0]),
+    Array('https://drive.google.com/file/d/1mzHH5l8tk88zAEwfBoKFwKs9jzAcwS_w/preview', 'Colegiada cogida por su maestra',
+        'Una linda y cachonda colegiada le pide ayuda a su maestra, y mientras están en la cocina, se prenden y empiezan a follar.', categoria[0][0]),
+    Array('https://www.xvideos.com/embedframe/42306427', 'Sweetheart Cherie DeVille & AJ Applegate Scissor All Night',
+        'Dos hermosas mujeres entrando en contacto físico paraexcitarse una a la otra, mientras hacen tijeras.', categoria[0][0]),
+    Array('https://www.xvideos.com/embedframe/47473025', 'Sweetheart MILF Scissoring Teen in Wet White Panties',
+        'Dos cachondas mujeres frotándose al lado de una piscina hasta el orgasmo.', categoria[0][0]),
+    Array('https://www.xvideos.com/embedframe/44315229', 'Sexy sapphic lesbians oil up for fucking',
+        'Dos lesbianas probando una nueva crema para masajes en todo su cuerpo y terminan follando.', categoria[0][0]),
+    Array('https://www.xvideos.com/embedframe/45417553', 'Cute Teen Lesbians Have Strap-On Sex After School',
+        'Dos colegialas probando su arnes para excitarse a más no poder.', categoria[0][0]),
+    Array('https://www.xvideos.com/embedframe/31628279', "Tattooed Doll Sucking A Shemale's Cock",
+        'Chupándole la verga a mi amiga transexual.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/37183031', 'red hotel in Barcelona',
+        'Mi amiga me dice que quiere coger conmigo y mostrarme una sorpresita.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/27897925', 'Luscious Tranny Fucks a Tight Pussy',
+        'Haciendo videollamada para mis fans con mi amiga.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/32558009', 'cum in pussy 2',
+        'Cogiendome a mi mejor amiga shemale', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/32064923', 'Big ass teen ladyboy really enjoys a bareback anal fuck',
+        'Cogiendo a chica que me encontre.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/25211591', 'Big cock teen ladyboy fucked in the ass by a white guy',
+        'Filmando a una joven y linda ladyboy.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/27425255', 'Teen ladyboy amateur with a hot body gives good head',
+        'Mi linda ladyboy me seduce con esa ricura de cuerpo.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/28461557', 'Ladyboy beauty outstanding pov handjob and blowjob',
+        'Mi amiga trans me chupa la verga muy rico', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/27606989', 'Young ladyboy rides cock after a rimjob',
+        'cogiendome a la joven trans que tanto queria', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/26755029', 'Japanese transsexual fucked',
+        'Cogiendome a mi secretaria con pene!', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/28622639', 'Lingerie versatile ladyboy assfucking dude',
+        'Sexo duro cno linda chica trans.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/34455343', 'Amateur babe strokes her dong in solo scene',
+        'Me mansturbo mientras pienso en mi amorcito.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/27508099', 'Newhalf schoolgirl ass banged with passion',
+        'Cogiendome a la rica shemale de mi colegio.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/30932241', 'Cocksucking newhalf pounded in tight ass',
+        'Jugando con la gorda ladyboy.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/10074', 'follando con mi compañera de cuarto',
+        'Dos prisioneras no soportan el encierro, así que deciden pasar un rato follando para entretenerse.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/45663615', 'FUCKING A WOMAN, GIA ITZEL WITH EVA DAVAI, shemale big dick',
+        'Probando por primera vez con una trans, mi esposa y yo nos la follamos rico.', categoria[6][0]),
+    Array('https://www.xvideos.com/embedframe/10245', 'Kagney Linn Karter and Tori Black',
+        'Dos lindas mujeres en ropa interior deciden follar en la asotea de un hotel.', categoria[6][0]),
 );
 
 /* video #7 */
 
 //noticias = [[Titulo, contenido, Fecha]]
-let noticias =
-  [['Mia Khalifa', 'Se considera a Mia Khalifa como la mejor actriz porno.', 'May. 16 2021'],
-  ['Únete a nuestro grupo de Telegram!', 'Podrás ver más porno!, Ayuda a crecer a nuestra comunidad!' +
-    '<br>Grupo: <a href="https://t.me/porno_de_todo_rico" target="blank" class="text-primary">Porno de Todo</a>', 'May. 17 2021']
-  ];
+let noticias = [
+    ['Mia Khalifa', 'Se considera a Mia Khalifa como la mejor actriz porno.', 'May. 16 2021'],
+    ['Únete a nuestro grupo de Telegram!', 'Podrás ver más porno!, Ayuda a crecer a nuestra comunidad!' +
+        '<br>Grupo: <a href="https://t.me/porno_de_todo_rico" target="blank" class="text-primary">Porno de Todo</a>', 'May. 17 2021'
+    ]
+];
 
 //publicaciones = [Titulo, Contenido, Fecha]
-let publicaciones =
-  [['Cómo hacer que tu semen sepa más rico!',
-    'Evita: embutirte de pura garnacha. Somos lo que comemos, así que si te empinas 15 chelas y 22 tacos de pastor con mucha cebolla, evita pedirle a tu chica/o que te haga sexo oral. Si lo haces, seguramente escupirá todo y te mandará lejos cuando le digas que quieres continuar con sexo desenfrenado toda la noche.De igual forma rechaza categóricamente comer espárragos, brócoli o col, pues le dará al semen un sabor espantoso. Y, por supuesto, no te empaques de comidas enlatadas, embutidos o muy grasosas, pues esto hará que aumente la salinidad del semen y… #Guácala.Si creías que el semen sólo está compuesto por espermas, has vivido en un craso error toda tu vida. También contiene azúcares, proteínas, sales, vitaminas y minerales. Un combo de salud. Por tanto, no la riegues con tu alimentación.',
-    'Domingo 16 de Mayo del 2021']
-  ];
+let publicaciones = [
+    ['Cómo hacer que tu semen sepa más rico!',
+        'Evita: embutirte de pura garnacha. Somos lo que comemos, así que si te empinas 15 chelas y 22 tacos de pastor con mucha cebolla, evita pedirle a tu chica/o que te haga sexo oral. Si lo haces, seguramente escupirá todo y te mandará lejos cuando le digas que quieres continuar con sexo desenfrenado toda la noche.De igual forma rechaza categóricamente comer espárragos, brócoli o col, pues le dará al semen un sabor espantoso. Y, por supuesto, no te empaques de comidas enlatadas, embutidos o muy grasosas, pues esto hará que aumente la salinidad del semen y… #Guácala.Si creías que el semen sólo está compuesto por espermas, has vivido en un craso error toda tu vida. También contiene azúcares, proteínas, sales, vitaminas y minerales. Un combo de salud. Por tanto, no la riegues con tu alimentación.',
+        'Domingo 16 de Mayo del 2021'
+    ]
+];
 
 
 function cargarVideos(categorias) {
-  let contenedor = document.querySelector('.container-fluid');
-  contenedor.innerHTML = '<section class="row contenido pt-5"></section>';
-  let contenido = document.querySelector('.contenido');
-  for (let i = 0; i < videos.length; i++) {
-    if (categoria[categorias][0] === videos[i][3]) {
-      contenido.innerHTML += '<div class="video" style="position:relative;">' +
-        '<iframe src="' + videos[i][0] + '" frameborder="0" height="250"></iframe>' +
-        '<br>' +
-        '<h2>' + videos[i][1] + '</h2>' +
-        '<p align="justify" class="pb-3">' + videos[i][2] + '<br><b>Categoria:</b>' + videos[i][3] + '</p>'+
-        '<form class="ml-2 mt-2" style="position: absolute; left: 5px; bottom: 5px;"><a href="#" class="text-danger" onclick=saveTask();">Me gusta</a></form></div>';
+    let contenedor = document.querySelector('.container-fluid');
+    contenedor.innerHTML = '<section class="row contenido pt-5"></section>';
+    let contenido = document.querySelector('.contenido');
+    for (let i = 0; i < videos.length; i++) {
+        if (categoria[categorias][0] === videos[i][3]) {
+            contenido.innerHTML += '<div class="video" style="position:relative;">' +
+                '<iframe src="' + videos[i][0] + '" frameborder="0" height="250"></iframe>' +
+                '<br>' +
+                '<h2>' + videos[i][1] + '</h2>' +
+                '<p align="justify" class="pb-3">' + videos[i][2] + '<br><b>Categoria:</b>' + videos[i][3] + '</p>' + '<form class="ml-2 mt-2" style="position: absolute; left: 5px; bottom: 5px;"><span class="text-danger btnFavorito" onclick="saveTask(' + i + ');">Me gusta</span></form></div>';
+        }
+
     }
-    
-  }
 }
 
 function mostrarVideos(categorias) {
-/*
-  let navbar = '<nav class="row"><input type="checkbox" id="ck"><label class="logo text-white pl-4">PORNO+</label><ul><li class="opcion"><a href="#" class="" style="text-decoration: none;">Inicio</a></li><li class="opcion"><a href="#" style="text-decoration: none;">Contacto</a></li><li class="opcion"><a href="#" style="text-decoration: none;">Conocenos</a></li><li class="opcion"><a href="#" style="text-decoration: none;"><span class="icon-user"></span></a></li></ul><label for="ck" class="ckbtn">≡</label></nav>';
-  let contenido = document.querySelector('#seccionContenido');
-  contenido.innerHTML = navbar +
-    '<iframe src="videos.html" frameborder="0" style="left:0; width:100%; height: 100vh; position:absolute;"></iframe>';
- */ cargarVideos(categorias);
+    /*
+      let navbar = '<nav class="row"><input type="checkbox" id="ck"><label class="logo text-white pl-4">PORNO+</label><ul><li class="opcion"><a href="#" class="" style="text-decoration: none;">Inicio</a></li><li class="opcion"><a href="#" style="text-decoration: none;">Contacto</a></li><li class="opcion"><a href="#" style="text-decoration: none;">Conocenos</a></li><li class="opcion"><a href="#" style="text-decoration: none;"><span class="icon-user"></span></a></li></ul><label for="ck" class="ckbtn">≡</label></nav>';
+      let contenido = document.querySelector('#seccionContenido');
+      contenido.innerHTML = navbar +
+        '<iframe src="videos.html" frameborder="0" style="left:0; width:100%; height: 100vh; position:absolute;"></iframe>';
+     */
+    cargarVideos(categorias);
 }
 
 function cargarCategorias() {
-  let contenido = document.querySelector('#contenidoCategorias');
-  for (let i = 0; i < categoria.length; i++) {
-    contenido.innerHTML += '<div class="card mx-auto my-1" style="width: 18rem;">' +
-      '<a href="#">' +
-      '<img src="' + categoria[i][2] + '" class="card-img-top" alt="...">' +
-      '</a>' +
-      '<div class="card-body">' +
-      '<h5 class="card-title">' + categoria[i][0] + '</h5>' +
-      '<p class="card-text" align="justify">' + categoria[i][1] + '</p>' +
+    let contenido = document.querySelector('#contenidoCategorias');
+    for (let i = 0; i < categoria.length; i++) {
+        contenido.innerHTML += '<div class="card mx-auto my-1" style="width: 18rem;">' +
+            '<a href="#">' +
+            '<img src="' + categoria[i][2] + '" class="card-img-top" alt="...">' +
+            '</a>' +
+            '<div class="card-body">' +
+            '<h5 class="card-title">' + categoria[i][0] + '</h5>' +
+            '<p class="card-text" align="justify">' + categoria[i][1] + '</p>' +
 
-      '<a href="#" onclick="mostrarVideos(' + i + ');" class="text-success">Hechar un vistazo!</a>' +
-      '</div>' +
-      '</div>';
-  }
+            '<a href="#" onclick="mostrarVideos(' + i + ');" class="text-success">Hechar un vistazo!</a>' +
+            '</div>' +
+            '</div>';
+    }
 }
 
 function cargarNoticias() {
-  let contenido = document.querySelector('#contenidoNoticias');
-  contenido.innerHTML += '<h1 align="center" class="text-primary">Noticias</h1>';
-  if (noticias.length < 4) {
-    for (let i = 0; i < noticias.length; i++) {
-      contenido.innerHTML += '<div class="border w-100 my-4 mr-4" style="width: 18rem;">' +
-        '<div class="card-body">' +
-        '<h2 class="card-title">' + noticias[i][0] + '</h2>' +
-        '<h6 class="card-subtitle mb-2 text-muted">' + noticias[i][2] + '</h6>' +
-        '<p class="card-text">' + noticias[i][1] + '</p>' +
-        '<a href="#" class="card-link">Leer mas...</a>' +
-        '</div>' +
-        '</div>';
+    let contenido = document.querySelector('#contenidoNoticias');
+    contenido.innerHTML += '<h1 align="center" class="text-primary">Noticias</h1>';
+    if (noticias.length < 4) {
+        for (let i = 0; i < noticias.length; i++) {
+            contenido.innerHTML += '<div class="border w-100 my-4 mr-4" style="width: 18rem;">' +
+                '<div class="card-body">' +
+                '<h2 class="card-title">' + noticias[i][0] + '</h2>' +
+                '<h6 class="card-subtitle mb-2 text-muted">' + noticias[i][2] + '</h6>' +
+                '<p class="card-text">' + noticias[i][1] + '</p>' +
+                '<a href="#" class="card-link">Leer mas...</a>' +
+                '</div>' +
+                '</div>';
+        }
+    } else {
+        for (let i = 0; i < 4; i++) {
+            contenido.innerHTML += '<div class="border w-100 my-4 mr-4" style="width: 18rem;">' +
+                '<div class="card-body">' +
+                '<h2 class="card-title">' + noticias[i][0] + '</h2>' +
+                '<h6 class="card-subtitle mb-2 text-muted">' + noticias[i][2] + '</h6>' +
+                '<p class="card-text">' + noticias[i][1] + '</p>' +
+                '<a href="#" class="card-link">Leer mas...</a>' +
+                '</div>' +
+                '</div>';
+        }
     }
-  } else {
-    for (let i = 0; i < 4; i++) {
-      contenido.innerHTML += '<div class="border w-100 my-4 mr-4" style="width: 18rem;">' +
-        '<div class="card-body">' +
-        '<h2 class="card-title">' + noticias[i][0] + '</h2>' +
-        '<h6 class="card-subtitle mb-2 text-muted">' + noticias[i][2] + '</h6>' +
-        '<p class="card-text">' + noticias[i][1] + '</p>' +
-        '<a href="#" class="card-link">Leer mas...</a>' +
-        '</div>' +
-        '</div>';
-    }
-  }
 
 }
 
 function cargarPublicaciones() {
-  let contenido = document.querySelector('#contenidoPublicaciones');
-  contenido.innerHTML += '<h1 align="center" class="text-primary">Publicaciones</h1>';
-  for (let i = 0; i < publicaciones.length; i++) {
-    contenido.innerHTML += '<div id="contenidoPublicaciones" class="row border-top m-4 p-4">' +
-      '<h1>' + publicaciones[i][0] + '</h1>' +
-      '<p class="text-justify">' + publicaciones[i][1] + '</p>' +
-      '<h6 class="text-muted">' + publicaciones[i][2] + '</h6>'
-    '</div>';
-  }
+    let contenido = document.querySelector('#contenidoPublicaciones');
+    contenido.innerHTML += '<h1 align="center" class="text-primary">Publicaciones</h1>';
+    for (let i = 0; i < publicaciones.length; i++) {
+        contenido.innerHTML += '<div id="contenidoPublicaciones" class="row border-top m-4 p-4">' +
+            '<h1>' + publicaciones[i][0] + '</h1>' +
+            '<p class="text-justify">' + publicaciones[i][1] + '</p>' +
+            '<h6 class="text-muted">' + publicaciones[i][2] + '</h6>'
+        '</div>';
+    }
 
-  contenido.innerHTML += '<span class="btn btn-outline-primary btnTop" onclick="subir();">Subir</span>' +
-    '<div class="d-flex mb-4">' +
-    '<ul class="pagination m-auto">' +
-    '<li class="page-item">' +
-    '<a class="page-link" href="#" aria-label="Previous">' +
-    '<span aria-hidden="true">&laquo;</span>' +
-    '</a>' +
-    '</li>' +
-    '<li class="page-item"><a class="page-link" href="#">1</a></li>' +
-    '<li class="page-item"><a class="page-link" href="#">2</a></li>' +
-    '<li class="page-item">' +
-    '<a class="page-link" href="#" aria-label="Next">' +
-    '<span aria-hidden="true">&raquo;</span>' +
-    '</a>' +
-    '</li>' +
-    '</ul>' +
-    '</div>';
+    contenido.innerHTML += '<span class="btn btn-outline-primary btnTop" onclick="subir();">Subir</span>' +
+        '<div class="d-flex mb-4">' +
+        '<ul class="pagination m-auto">' +
+        '<li class="page-item">' +
+        '<a class="page-link" href="#" aria-label="Previous">' +
+        '<span aria-hidden="true">&laquo;</span>' +
+        '</a>' +
+        '</li>' +
+        '<li class="page-item"><a class="page-link" href="#">1</a></li>' +
+        '<li class="page-item"><a class="page-link" href="#">2</a></li>' +
+        '<li class="page-item">' +
+        '<a class="page-link" href="#" aria-label="Next">' +
+        '<span aria-hidden="true">&raquo;</span>' +
+        '</a>' +
+        '</li>' +
+        '</ul>' +
+        '</div>';
 
 }
 
 function subir() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 }
 
 function indexInicio() {
-  cargarCategorias();
-  cargarNoticias();
-  cargarPublicaciones();
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('Registro de SW exitoso', reg))
-      .catch(err => console.warn('Error al tratar de registrar el sw', err))
-  }
+    cargarCategorias();
+    cargarNoticias();
+    cargarPublicaciones();
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Registro de SW exitoso', reg))
+            .catch(err => console.warn('Error al tratar de registrar el sw', err))
+    }
 }
 
 
 // -------- MENSAJES --------- //
 
 function confirmar(msg, e) {
-  Swal.fire({
-    title: '¿Desea ' + msg + '?',
-    icon: 'question',
-    showDenyButton: true,
-    showCancelButton: true,
-    confirmButtonText: `Guardar`,
-    denyButtonText: `No Guardado`,
-  }).then((result) => {
-    /* Read more about isConfirmed, isDenied below */
-    if (result.isConfirmed) {
-      e()
-      Swal.fire('Guardado!', '', 'success')
+    Swal.fire({
+        title: '¿Desea ' + msg + '?',
+        icon: 'question',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: `Guardar`,
+        denyButtonText: `No Guardado`,
+    }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            Swal.fire('Guardado!', '', 'success')
 
-    } else if (result.isDenied) {
-      Swal.fire('Los cambios no se guardaron', '', 'info')
-    }
-  });
+        } else if (result.isDenied) {
+            Swal.fire('Los cambios no se guardaron', '', 'info')
+        }
+    });
 }
 
 
-function guardar(msg) {
-  Swal.fire(
-    '¡Buen trabajo!',
-    '¡Acción completada exitósamente!',
-    'success'
-  )
+function guardar() {
+    Swal.fire(
+        '¡Buen trabajo!',
+        'Se ha agregado a favorito',
+        'success'
+    )
 }
 
 function error(msg) {
-  Swal.fire({
-    icon: 'question',
-    title: 'Ups...',
-    text: '¡Algo salió mal!',
-    //footer: '<a href>Why do I have this issue?</a>'
-  })
+    Swal.fire({
+        icon: 'question',
+        title: 'Ups...',
+        text: '¡Algo salió mal!',
+        //footer: '<a href>Why do I have this issue?</a>'
+    })
 }
-
 
 // ----------- TAREAS ----------- //
 
-document.getElementById('formTask').addEventListener('submit', ActionTaskSave);
+function saveTask(i) {
+    let title = videos[i][1]; //document.getElementById('title').value;
+    let description = videos[i][2]; //document.getElementById('description').value;
+    let video = videos[i][0];
+    let categoria = videos[i][3];
 
-function ActionTaskSave(e) {
-  e.preventDefault();
-  confirmar('no', saveTask);
-}
+    let task = {
+        title,
+        description,
+        video,
+        categoria
+        //fechaActual
+    };
 
-function saveTask(e) {
-  //e.preventDefault();
-  let title = document.getElementById('title').value;
-  let description = document.getElementById('description').value;
-  var date = new Date();
-  var fechaActual = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear() + " a las " + (date.getHours()) + ":" + date.getMinutes() + ":" + date.getSeconds();
-  console.log(fechaActual);
+    if (localStorage.getItem('tasks') === null) {
+        let tasks = [];
+        tasks.push(task);
+        localStorage.setItem('tasks', JSON.stringify(tasks));
+    } else {
+        let tasks = JSON.parse(localStorage.getItem('tasks'));
+        let found = false;
+        for (let i = 0; i < tasks.length; i++) {
+            let title1 = tasks[i].title;
+            if (title1 === title) {
+                found = true;
+            }
+        }
 
-  let task = {
-    title,
-    description,
-    fechaActual
-  };
-
-  if (localStorage.getItem('tasks') === null) {
-    let tasks = [];
-    tasks.push(task);
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-  } else {
-    let tasks = JSON.parse(localStorage.getItem('tasks'));
-    tasks.push(task);
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-  }
-
-  getTasks();
-  document.getElementById('formTask').reset();
-}
-
-function deleteTask(title) {
-  let tasks = JSON.parse(localStorage.getItem('tasks'));
-  for (let i = 0; i < tasks.length; i++) {
-    if (tasks[i].title == title) {
-      tasks.splice(i, 1);
+        if (!found) {
+            alert('Se ha agregado a la lista: ' + title);
+            tasks.push(task);
+            localStorage.setItem('tasks', JSON.stringify(tasks));
+        } else {
+            alert('Ya esta agregado en la lista de Favorito');
+        }
     }
-  }
 
-  localStorage.setItem('tasks', JSON.stringify(tasks));
-  getTasks();
+}
+
+function deleteTask(i) {
+    let tasks = JSON.parse(localStorage.getItem('tasks'));
+    tasks.splice(i, 1);
+
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    alert('Se ha removido de la lista favorito');
+    getTasks();
 }
 
 function getTasks() {
-  let tasks = JSON.parse(localStorage.getItem('tasks'));
-  let tasksView = document.getElementById('tasks');
-  tasksView.innerHTML = '';
-  for (let i = 0; i < tasks.length; i++) {
-    let title = tasks[i].title;
-    let description = tasks[i].description;
-    let fechaActual = tasks[i].fechaActual;
-    let d = fechaActual.split("/");
-    let meses = Array('', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
-    fechaActual = d[0] + " de " + meses[d[1]] + " del " + d[2];
-    tasksView.innerHTML += `
-  
-<div class="alert alert-dark alert-dismissible fade show" role="alert">
-  <h4 class="alert-heading">${title}</h4><hr> ${description}
-  <footer class="blockquote-footer">Realizado el: <cite title="Source Title">${fechaActual}</cite></footer>
-    </blockquote>
-  <button type="button" class="close text-dark" data-dismiss="alert" aria-label="Close" onclick="deleteTask('${title}')">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
+    let tasks = JSON.parse(localStorage.getItem('tasks'));
+    let contenido = document.querySelector('.contenido');
+    contenido.innerHTML = '';
+    for (let i = 0; i < tasks.length; i++) {
+        let title = tasks[i].title;
+        let description = tasks[i].description;
+        let video = tasks[i].video;
+        let categoria = tasks[i].categoria;
 
-`;
-  }
+
+        contenido.innerHTML += `<div class="video" style="position:relative;">
+        <iframe src="${video}" frameborder="0" height="250"></iframe>
+        <br>
+        <h2>${title}</h2>
+        <p align="justify" class="pb-3">${description}<br><b>Categoria:</b>${categoria}</p>
+        <form class="ml-2 mt-2" style="position: absolute; left: 5px; bottom: 5px;"><span class="text-info btnQuitarFavorito" onclick="deleteTask('${i}')">Quitar</span></form></div>';
+    `;
+    }
 }
+
+//https://www.xvideos.com/embedframe/30073747
+//https://www.xvideos.com/embedframe/2586547

@@ -1,0 +1,129 @@
+const empezarGrabacion = async() => {
+    const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+}
+
+const empezarGrabacion = async() => {
+    const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+        /* 2.2 */
+    const usuarioStream = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
+}
+
+
+const empezarGrabacion = async() => {
+    const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+    const usuarioStream = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
+    /* 2.3 */
+    const context = new AudioContext();
+    const destination = context.createMediaStreamDestination();
+    if (pantallaStream.getAudioTracks().length) {
+        const fuente1 = context.createMediaStreamSource(pantallaStream);
+        const f1Gain = context.createGain();
+        f1Gain.gain.value = 1;
+        fuente1.connect(f1Gain).connect(destination);
+    }
+    if (usuarioStream.getAudioTracks().length) {
+        const fuente2 = context.createMediaStreamSource(usuarioStream)
+        const f2Gain = context.createGain();
+        f2Gain.gain.value = 1;
+        fuente2.connect(f2Gain).connect(destination);
+    }
+    const tracks = [
+        ...pantallaStream.getVideoTracks(),
+        ...destination.stream.getAudioTracks()
+    ];
+    const bundleStream = new MediaStream(tracks);
+}
+
+
+const empezarGrabacion = async() => {
+    const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+    const usuarioStream = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
+    const context = new AudioContext();
+    const destination = context.createMediaStreamDestination();
+    if (pantallaStream.getAudioTracks().length) {
+        const fuente1 = context.createMediaStreamSource(pantallaStream);
+        const f1Gain = context.createGain();
+        f1Gain.gain.value = 1;
+        fuente1.connect(f1Gain).connect(destination);
+    }
+    if (usuarioStream.getAudioTracks().length) {
+        const fuente2 = context.createMediaStreamSource(usuarioStream)
+        const f2Gain = context.createGain();
+        f2Gain.gain.value = 1;
+        fuente2.connect(f2Gain).connect(destination);
+    }
+    const tracks = [
+        ...pantallaStream.getVideoTracks(),
+        ...destination.stream.getAudioTracks()
+    ];
+    const bundleStream = new MediaStream(tracks);
+    /* 2.4 */
+    let blobs = []
+    window.grabadora = new MediaRecorder(bundleStream, { mimeType: 'video/webm; codecs=vp8,opus' });
+    window.grabadora.ondataavailable = (e) => blobs.push(e.data);
+}
+
+const empezarGrabacion = async() => {
+    const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+    const usuarioStream = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
+    const context = new AudioContext();
+    const destination = context.createMediaStreamDestination();
+    if (pantallaStream.getAudioTracks().length) {
+        const fuente1 = context.createMediaStreamSource(pantallaStream);
+        const f1Gain = context.createGain();
+        f1Gain.gain.value = 1;
+        fuente1.connect(f1Gain).connect(destination);
+    }
+    if (usuarioStream.getAudioTracks().length) {
+        const fuente2 = context.createMediaStreamSource(usuarioStream)
+        const f2Gain = context.createGain();
+        f2Gain.gain.value = 1;
+        fuente2.connect(f2Gain).connect(destination);
+    }
+    const tracks = [
+        ...pantallaStream.getVideoTracks(),
+        ...destination.stream.getAudioTracks()
+    ];
+    const bundleStream = new MediaStream(tracks);
+    let blobs = []
+    window.grabadora = new MediaRecorder(bundleStream, { mimeType: 'video/webm; codecs=vp8,opus' });
+    window.grabadora.ondataavailable = (e) => blobs.push(e.data);
+    /* 2.5 */
+    window.grabadora.start();
+}
+
+const empezarGrabacion = async() => {
+    const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+    const usuarioStream = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
+    const context = new AudioContext();
+    const destination = context.createMediaStreamDestination();
+    if (pantallaStream.getAudioTracks().length) {
+        const fuente1 = context.createMediaStreamSource(pantallaStream);
+        const f1Gain = context.createGain();
+        f1Gain.gain.value = 1;
+        fuente1.connect(f1Gain).connect(destination);
+    }
+    if (usuarioStream.getAudioTracks().length) {
+        const fuente2 = context.createMediaStreamSource(usuarioStream)
+        const f2Gain = context.createGain();
+        f2Gain.gain.value = 1;
+        fuente2.connect(f2Gain).connect(destination);
+    }
+    const tracks = [
+        ...pantallaStream.getVideoTracks(),
+        ...destination.stream.getAudioTracks()
+    ];
+    const bundleStream = new MediaStream(tracks);
+    let blobs = []
+    window.grabadora = new MediaRecorder(bundleStream, { mimeType: 'video/webm; codecs=vp8,opus' });
+    window.grabadora.ondataavailable = (e) => blobs.push(e.data);
+    window.grabadora.start();
+    /* 2.6 */
+    window.grabadora.onstop = async() => {
+        const blob = new Blob(blobs, { type: 'video/webm' });
+        const btnDescargar = document.createElement('a');
+        btnDescargar.href = window.URL.createObjectURL(blob);
+        btnDescargar.download = `GRABACION_${new Date().getTime()}.webm`;
+        btnDescargar.click()
+    };
+}

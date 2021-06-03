@@ -1,4 +1,5 @@
 const empezarGrabacion = async() => {
+    alert('hola')
     const pantallaStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
     const usuarioStream = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
     const context = new AudioContext();

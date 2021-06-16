@@ -3,12 +3,11 @@
 const CACHE_NAME = 'v1_cache_programador_web',
     urlsToCache = [
         /*ARCHIVOS O ENLACES A GUARDAR EN LA CACHE*/
-        './',
+        './',/*
         './js/main.js',
         './videos.html',
         './inicio.html',
         './tareas.html',
-        'https://www.xvideos.com/embedframe/35475791',
         './css/config/font.css',
         './css/pages/videos.css',
         './css/style.css',
@@ -22,7 +21,14 @@ const CACHE_NAME = 'v1_cache_programador_web',
         './assets/iconos/192x192.png',
         './assets/iconos/256x256.png',
         './assets/iconos/384x384.png',
-        './assets/iconos/512x512.png'
+        './assets/iconos/512x512.png'*/
+        './js/*.js',
+        './*.html',
+        './css/config/*.css',
+        './css/pages/*.css',
+        './css/*.css',
+        './assets/css/bootstrap.min.css',
+        './assets/iconos/*.png'
     ]
 
 //EVENTOS DEL SERVICE WORKER
